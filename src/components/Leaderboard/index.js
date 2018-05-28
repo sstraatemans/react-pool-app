@@ -28,6 +28,7 @@ class Leaderboard extends Component {
           return <User key={user.uid} user={user} />;
         });
     }
+
     return <div>{users}</div>;
   }
 }

@@ -28,7 +28,7 @@ describe('Leaderboard component', () => {
   ];
 
   test('renders without crashing', () => {
-    const wrapper = mount(<LeaderboardTest firebase={firebase} />);
+    const wrapper = shallow(<LeaderboardTest firebase={firebase} />);
 
     expect(wrapper).toMatchSnapshot();
   });
