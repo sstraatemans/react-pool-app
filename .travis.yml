@@ -1,9 +1,4 @@
 language: node_js
 node_js:
-  - "stable"
-os: osx  
-cache:
-  directories:
-    - node_modules
-script:
-  - npm run build
+  - stable
+os: osx" 
