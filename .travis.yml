@@ -6,3 +6,5 @@ deploy:
   api_key:
     secure: HEROKUAPIKEY
   app: frontmenpool
+  on:
+    repo: sstraatemans/react-pool-app
