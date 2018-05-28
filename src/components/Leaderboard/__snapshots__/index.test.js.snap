@@ -17,10 +17,10 @@ ReactWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": Leaderboard {
       "_reactInternalFiber": FiberNode {
-        "_debugID": 4,
+        "_debugID": 5,
         "_debugIsCurrentlyTiming": false,
         "_debugOwner": FiberNode {
-          "_debugID": 3,
+          "_debugID": 4,
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": null,
           "_debugSource": null,
@@ -29,11 +29,11 @@ ReactWrapper {
           "effectTag": 1,
           "expirationTime": 0,
           "firstEffect": FiberNode {
-            "_debugID": 5,
+            "_debugID": 6,
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/sstraatemans/Documents/frontmen/react-pool-app/src/components/Leaderboard/index.js",
+              "fileName": "/Users/sstraatemans/Documents/frontmen/forked-react-pool-app/src/components/Leaderboard/index.js",
               "lineNumber": 174,
             },
             "alternate": null,
@@ -55,9 +55,11 @@ ReactWrapper {
             },
             "ref": [Function],
             "return": [Circular],
+            "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <div />,
             "tag": 5,
+            "treeBaseTime": 0,
             "type": "div",
             "updateQueue": null,
           },
@@ -113,6 +115,7 @@ ReactWrapper {
               "pendingProps": null,
               "ref": null,
               "return": null,
+              "selfBaseTime": 0,
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
@@ -120,9 +123,14 @@ ReactWrapper {
 </div>,
                 "context": Object {},
                 "current": [Circular],
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
                 "finishedWork": null,
                 "firstBatch": null,
                 "hydrate": false,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
                 "nextScheduledRoot": null,
                 "pendingChildren": null,
                 "pendingCommitExpirationTime": 0,
@@ -130,20 +138,20 @@ ReactWrapper {
                 "remainingExpirationTime": 0,
               },
               "tag": 3,
+              "treeBaseTime": 0,
               "type": null,
               "updateQueue": Object {
                 "baseState": null,
-                "callbackList": null,
-                "capturedValues": null,
                 "expirationTime": 1,
-                "first": Object {
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
                   "callback": null,
-                  "capturedValue": null,
                   "expirationTime": 1,
-                  "isForced": false,
-                  "isReplace": false,
                   "next": null,
-                  "partialState": Object {
+                  "nextEffect": null,
+                  "payload": Object {
                     "element": <WrapperComponent
                       Component={[Function]}
                       context={null}
@@ -154,18 +162,17 @@ ReactWrapper {
                       }
 />,
                   },
+                  "tag": 0,
                 },
-                "hasForceUpdate": false,
-                "isInitialized": false,
-                "isProcessing": false,
-                "last": Object {
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
                   "callback": null,
-                  "capturedValue": null,
                   "expirationTime": 1,
-                  "isForced": false,
-                  "isReplace": false,
                   "next": null,
-                  "partialState": Object {
+                  "nextEffect": null,
+                  "payload": Object {
                     "element": <WrapperComponent
                       Component={[Function]}
                       context={null}
@@ -176,6 +183,7 @@ ReactWrapper {
                       }
 />,
                   },
+                  "tag": 0,
                 },
               },
             },
@@ -183,11 +191,11 @@ ReactWrapper {
             "effectTag": 32,
             "expirationTime": 0,
             "firstEffect": FiberNode {
-              "_debugID": 5,
+              "_debugID": 6,
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/sstraatemans/Documents/frontmen/react-pool-app/src/components/Leaderboard/index.js",
+                "fileName": "/Users/sstraatemans/Documents/frontmen/forked-react-pool-app/src/components/Leaderboard/index.js",
                 "lineNumber": 174,
               },
               "alternate": null,
@@ -209,9 +217,11 @@ ReactWrapper {
               },
               "ref": [Function],
               "return": [Circular],
+              "selfBaseTime": 0,
               "sibling": null,
               "stateNode": <div />,
               "tag": 5,
+              "treeBaseTime": 0,
               "type": "div",
               "updateQueue": null,
             },
@@ -235,6 +245,7 @@ ReactWrapper {
             "pendingProps": null,
             "ref": null,
             "return": null,
+            "selfBaseTime": 0,
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
@@ -242,9 +253,14 @@ ReactWrapper {
 </div>,
               "context": Object {},
               "current": [Circular],
+              "earliestPendingTime": 0,
+              "earliestSuspendedTime": 0,
               "finishedWork": null,
               "firstBatch": null,
               "hydrate": false,
+              "latestPendingTime": 0,
+              "latestPingedTime": 0,
+              "latestSuspendedTime": 0,
               "nextScheduledRoot": null,
               "pendingChildren": null,
               "pendingCommitExpirationTime": 0,
@@ -252,6 +268,7 @@ ReactWrapper {
               "remainingExpirationTime": 0,
             },
             "tag": 3,
+            "treeBaseTime": 0,
             "type": null,
             "updateQueue": Object {
               "baseState": Object {
@@ -265,16 +282,18 @@ ReactWrapper {
                   }
 />,
               },
-              "callbackList": null,
-              "capturedValues": null,
               "expirationTime": 0,
-              "first": null,
-              "hasForceUpdate": false,
-              "isInitialized": true,
-              "isProcessing": false,
-              "last": null,
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
             },
           },
+          "selfBaseTime": 0,
           "sibling": null,
           "stateNode": WrapperComponent {
             "_reactInternalFiber": [Circular],
@@ -303,17 +322,18 @@ ReactWrapper {
             },
           },
           "tag": 2,
+          "treeBaseTime": 0,
           "type": [Function],
           "updateQueue": null,
         },
         "_debugSource": null,
         "alternate": null,
         "child": FiberNode {
-          "_debugID": 5,
+          "_debugID": 6,
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": Object {
-            "fileName": "/Users/sstraatemans/Documents/frontmen/react-pool-app/src/components/Leaderboard/index.js",
+            "fileName": "/Users/sstraatemans/Documents/frontmen/forked-react-pool-app/src/components/Leaderboard/index.js",
             "lineNumber": 174,
           },
           "alternate": null,
@@ -335,20 +355,22 @@ ReactWrapper {
           },
           "ref": [Function],
           "return": [Circular],
+          "selfBaseTime": 0,
           "sibling": null,
           "stateNode": <div />,
           "tag": 5,
+          "treeBaseTime": 0,
           "type": "div",
           "updateQueue": null,
         },
         "effectTag": 5,
         "expirationTime": 0,
         "firstEffect": FiberNode {
-          "_debugID": 5,
+          "_debugID": 6,
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": Object {
-            "fileName": "/Users/sstraatemans/Documents/frontmen/react-pool-app/src/components/Leaderboard/index.js",
+            "fileName": "/Users/sstraatemans/Documents/frontmen/forked-react-pool-app/src/components/Leaderboard/index.js",
             "lineNumber": 174,
           },
           "alternate": null,
@@ -370,20 +392,22 @@ ReactWrapper {
           },
           "ref": [Function],
           "return": [Circular],
+          "selfBaseTime": 0,
           "sibling": null,
           "stateNode": <div />,
           "tag": 5,
+          "treeBaseTime": 0,
           "type": "div",
           "updateQueue": null,
         },
         "index": 0,
         "key": null,
         "lastEffect": FiberNode {
-          "_debugID": 5,
+          "_debugID": 6,
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": Object {
-            "fileName": "/Users/sstraatemans/Documents/frontmen/react-pool-app/src/components/Leaderboard/index.js",
+            "fileName": "/Users/sstraatemans/Documents/frontmen/forked-react-pool-app/src/components/Leaderboard/index.js",
             "lineNumber": 174,
           },
           "alternate": null,
@@ -405,9 +429,11 @@ ReactWrapper {
           },
           "ref": [Function],
           "return": [Circular],
+          "selfBaseTime": 0,
           "sibling": null,
           "stateNode": <div />,
           "tag": 5,
+          "treeBaseTime": 0,
           "type": "div",
           "updateQueue": null,
         },
@@ -427,7 +453,7 @@ ReactWrapper {
         },
         "ref": null,
         "return": FiberNode {
-          "_debugID": 3,
+          "_debugID": 4,
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": null,
           "_debugSource": null,
@@ -436,11 +462,11 @@ ReactWrapper {
           "effectTag": 1,
           "expirationTime": 0,
           "firstEffect": FiberNode {
-            "_debugID": 5,
+            "_debugID": 6,
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/sstraatemans/Documents/frontmen/react-pool-app/src/components/Leaderboard/index.js",
+              "fileName": "/Users/sstraatemans/Documents/frontmen/forked-react-pool-app/src/components/Leaderboard/index.js",
               "lineNumber": 174,
             },
             "alternate": null,
@@ -462,9 +488,11 @@ ReactWrapper {
             },
             "ref": [Function],
             "return": [Circular],
+            "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <div />,
             "tag": 5,
+            "treeBaseTime": 0,
             "type": "div",
             "updateQueue": null,
           },
@@ -520,6 +548,7 @@ ReactWrapper {
               "pendingProps": null,
               "ref": null,
               "return": null,
+              "selfBaseTime": 0,
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
@@ -527,9 +556,14 @@ ReactWrapper {
 </div>,
                 "context": Object {},
                 "current": [Circular],
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
                 "finishedWork": null,
                 "firstBatch": null,
                 "hydrate": false,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
                 "nextScheduledRoot": null,
                 "pendingChildren": null,
                 "pendingCommitExpirationTime": 0,
@@ -537,20 +571,20 @@ ReactWrapper {
                 "remainingExpirationTime": 0,
               },
               "tag": 3,
+              "treeBaseTime": 0,
               "type": null,
               "updateQueue": Object {
                 "baseState": null,
-                "callbackList": null,
-                "capturedValues": null,
                 "expirationTime": 1,
-                "first": Object {
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
                   "callback": null,
-                  "capturedValue": null,
                   "expirationTime": 1,
-                  "isForced": false,
-                  "isReplace": false,
                   "next": null,
-                  "partialState": Object {
+                  "nextEffect": null,
+                  "payload": Object {
                     "element": <WrapperComponent
                       Component={[Function]}
                       context={null}
@@ -561,18 +595,17 @@ ReactWrapper {
                       }
 />,
                   },
+                  "tag": 0,
                 },
-                "hasForceUpdate": false,
-                "isInitialized": false,
-                "isProcessing": false,
-                "last": Object {
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
                   "callback": null,
-                  "capturedValue": null,
                   "expirationTime": 1,
-                  "isForced": false,
-                  "isReplace": false,
                   "next": null,
-                  "partialState": Object {
+                  "nextEffect": null,
+                  "payload": Object {
                     "element": <WrapperComponent
                       Component={[Function]}
                       context={null}
@@ -583,6 +616,7 @@ ReactWrapper {
                       }
 />,
                   },
+                  "tag": 0,
                 },
               },
             },
@@ -590,11 +624,11 @@ ReactWrapper {
             "effectTag": 32,
             "expirationTime": 0,
             "firstEffect": FiberNode {
-              "_debugID": 5,
+              "_debugID": 6,
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/sstraatemans/Documents/frontmen/react-pool-app/src/components/Leaderboard/index.js",
+                "fileName": "/Users/sstraatemans/Documents/frontmen/forked-react-pool-app/src/components/Leaderboard/index.js",
                 "lineNumber": 174,
               },
               "alternate": null,
@@ -616,9 +650,11 @@ ReactWrapper {
               },
               "ref": [Function],
               "return": [Circular],
+              "selfBaseTime": 0,
               "sibling": null,
               "stateNode": <div />,
               "tag": 5,
+              "treeBaseTime": 0,
               "type": "div",
               "updateQueue": null,
             },
@@ -642,6 +678,7 @@ ReactWrapper {
             "pendingProps": null,
             "ref": null,
             "return": null,
+            "selfBaseTime": 0,
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
@@ -649,9 +686,14 @@ ReactWrapper {
 </div>,
               "context": Object {},
               "current": [Circular],
+              "earliestPendingTime": 0,
+              "earliestSuspendedTime": 0,
               "finishedWork": null,
               "firstBatch": null,
               "hydrate": false,
+              "latestPendingTime": 0,
+              "latestPingedTime": 0,
+              "latestSuspendedTime": 0,
               "nextScheduledRoot": null,
               "pendingChildren": null,
               "pendingCommitExpirationTime": 0,
@@ -659,6 +701,7 @@ ReactWrapper {
               "remainingExpirationTime": 0,
             },
             "tag": 3,
+            "treeBaseTime": 0,
             "type": null,
             "updateQueue": Object {
               "baseState": Object {
@@ -672,16 +715,18 @@ ReactWrapper {
                   }
 />,
               },
-              "callbackList": null,
-              "capturedValues": null,
               "expirationTime": 0,
-              "first": null,
-              "hasForceUpdate": false,
-              "isInitialized": true,
-              "isProcessing": false,
-              "last": null,
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
             },
           },
+          "selfBaseTime": 0,
           "sibling": null,
           "stateNode": WrapperComponent {
             "_reactInternalFiber": [Circular],
@@ -710,12 +755,15 @@ ReactWrapper {
             },
           },
           "tag": 2,
+          "treeBaseTime": 0,
           "type": [Function],
           "updateQueue": null,
         },
+        "selfBaseTime": 0,
         "sibling": null,
         "stateNode": [Circular],
         "tag": 2,
+        "treeBaseTime": 0,
         "type": [Function],
         "updateQueue": null,
       },
@@ -768,10 +816,10 @@ ReactWrapper {
     Object {
       "instance": Leaderboard {
         "_reactInternalFiber": FiberNode {
-          "_debugID": 4,
+          "_debugID": 5,
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": FiberNode {
-            "_debugID": 3,
+            "_debugID": 4,
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": null,
             "_debugSource": null,
@@ -780,11 +828,11 @@ ReactWrapper {
             "effectTag": 1,
             "expirationTime": 0,
             "firstEffect": FiberNode {
-              "_debugID": 5,
+              "_debugID": 6,
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/sstraatemans/Documents/frontmen/react-pool-app/src/components/Leaderboard/index.js",
+                "fileName": "/Users/sstraatemans/Documents/frontmen/forked-react-pool-app/src/components/Leaderboard/index.js",
                 "lineNumber": 174,
               },
               "alternate": null,
@@ -806,9 +854,11 @@ ReactWrapper {
               },
               "ref": [Function],
               "return": [Circular],
+              "selfBaseTime": 0,
               "sibling": null,
               "stateNode": <div />,
               "tag": 5,
+              "treeBaseTime": 0,
               "type": "div",
               "updateQueue": null,
             },
@@ -864,6 +914,7 @@ ReactWrapper {
                 "pendingProps": null,
                 "ref": null,
                 "return": null,
+                "selfBaseTime": 0,
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
@@ -871,9 +922,14 @@ ReactWrapper {
 </div>,
                   "context": Object {},
                   "current": [Circular],
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
                   "finishedWork": null,
                   "firstBatch": null,
                   "hydrate": false,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
                   "nextScheduledRoot": null,
                   "pendingChildren": null,
                   "pendingCommitExpirationTime": 0,
@@ -881,20 +937,20 @@ ReactWrapper {
                   "remainingExpirationTime": 0,
                 },
                 "tag": 3,
+                "treeBaseTime": 0,
                 "type": null,
                 "updateQueue": Object {
                   "baseState": null,
-                  "callbackList": null,
-                  "capturedValues": null,
                   "expirationTime": 1,
-                  "first": Object {
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": Object {
                     "callback": null,
-                    "capturedValue": null,
                     "expirationTime": 1,
-                    "isForced": false,
-                    "isReplace": false,
                     "next": null,
-                    "partialState": Object {
+                    "nextEffect": null,
+                    "payload": Object {
                       "element": <WrapperComponent
                         Component={[Function]}
                         context={null}
@@ -905,18 +961,17 @@ ReactWrapper {
                         }
 />,
                     },
+                    "tag": 0,
                   },
-                  "hasForceUpdate": false,
-                  "isInitialized": false,
-                  "isProcessing": false,
-                  "last": Object {
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": Object {
                     "callback": null,
-                    "capturedValue": null,
                     "expirationTime": 1,
-                    "isForced": false,
-                    "isReplace": false,
                     "next": null,
-                    "partialState": Object {
+                    "nextEffect": null,
+                    "payload": Object {
                       "element": <WrapperComponent
                         Component={[Function]}
                         context={null}
@@ -927,6 +982,7 @@ ReactWrapper {
                         }
 />,
                     },
+                    "tag": 0,
                   },
                 },
               },
@@ -934,11 +990,11 @@ ReactWrapper {
               "effectTag": 32,
               "expirationTime": 0,
               "firstEffect": FiberNode {
-                "_debugID": 5,
+                "_debugID": 6,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/sstraatemans/Documents/frontmen/react-pool-app/src/components/Leaderboard/index.js",
+                  "fileName": "/Users/sstraatemans/Documents/frontmen/forked-react-pool-app/src/components/Leaderboard/index.js",
                   "lineNumber": 174,
                 },
                 "alternate": null,
@@ -960,9 +1016,11 @@ ReactWrapper {
                 },
                 "ref": [Function],
                 "return": [Circular],
+                "selfBaseTime": 0,
                 "sibling": null,
                 "stateNode": <div />,
                 "tag": 5,
+                "treeBaseTime": 0,
                 "type": "div",
                 "updateQueue": null,
               },
@@ -986,6 +1044,7 @@ ReactWrapper {
               "pendingProps": null,
               "ref": null,
               "return": null,
+              "selfBaseTime": 0,
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
@@ -993,9 +1052,14 @@ ReactWrapper {
 </div>,
                 "context": Object {},
                 "current": [Circular],
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
                 "finishedWork": null,
                 "firstBatch": null,
                 "hydrate": false,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
                 "nextScheduledRoot": null,
                 "pendingChildren": null,
                 "pendingCommitExpirationTime": 0,
@@ -1003,6 +1067,7 @@ ReactWrapper {
                 "remainingExpirationTime": 0,
               },
               "tag": 3,
+              "treeBaseTime": 0,
               "type": null,
               "updateQueue": Object {
                 "baseState": Object {
@@ -1016,16 +1081,18 @@ ReactWrapper {
                     }
 />,
                 },
-                "callbackList": null,
-                "capturedValues": null,
                 "expirationTime": 0,
-                "first": null,
-                "hasForceUpdate": false,
-                "isInitialized": true,
-                "isProcessing": false,
-                "last": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
               },
             },
+            "selfBaseTime": 0,
             "sibling": null,
             "stateNode": WrapperComponent {
               "_reactInternalFiber": [Circular],
@@ -1054,17 +1121,18 @@ ReactWrapper {
               },
             },
             "tag": 2,
+            "treeBaseTime": 0,
             "type": [Function],
             "updateQueue": null,
           },
           "_debugSource": null,
           "alternate": null,
           "child": FiberNode {
-            "_debugID": 5,
+            "_debugID": 6,
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/sstraatemans/Documents/frontmen/react-pool-app/src/components/Leaderboard/index.js",
+              "fileName": "/Users/sstraatemans/Documents/frontmen/forked-react-pool-app/src/components/Leaderboard/index.js",
               "lineNumber": 174,
             },
             "alternate": null,
@@ -1086,20 +1154,22 @@ ReactWrapper {
             },
             "ref": [Function],
             "return": [Circular],
+            "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <div />,
             "tag": 5,
+            "treeBaseTime": 0,
             "type": "div",
             "updateQueue": null,
           },
           "effectTag": 5,
           "expirationTime": 0,
           "firstEffect": FiberNode {
-            "_debugID": 5,
+            "_debugID": 6,
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/sstraatemans/Documents/frontmen/react-pool-app/src/components/Leaderboard/index.js",
+              "fileName": "/Users/sstraatemans/Documents/frontmen/forked-react-pool-app/src/components/Leaderboard/index.js",
               "lineNumber": 174,
             },
             "alternate": null,
@@ -1121,20 +1191,22 @@ ReactWrapper {
             },
             "ref": [Function],
             "return": [Circular],
+            "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <div />,
             "tag": 5,
+            "treeBaseTime": 0,
             "type": "div",
             "updateQueue": null,
           },
           "index": 0,
           "key": null,
           "lastEffect": FiberNode {
-            "_debugID": 5,
+            "_debugID": 6,
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/sstraatemans/Documents/frontmen/react-pool-app/src/components/Leaderboard/index.js",
+              "fileName": "/Users/sstraatemans/Documents/frontmen/forked-react-pool-app/src/components/Leaderboard/index.js",
               "lineNumber": 174,
             },
             "alternate": null,
@@ -1156,9 +1228,11 @@ ReactWrapper {
             },
             "ref": [Function],
             "return": [Circular],
+            "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <div />,
             "tag": 5,
+            "treeBaseTime": 0,
             "type": "div",
             "updateQueue": null,
           },
@@ -1178,7 +1252,7 @@ ReactWrapper {
           },
           "ref": null,
           "return": FiberNode {
-            "_debugID": 3,
+            "_debugID": 4,
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": null,
             "_debugSource": null,
@@ -1187,11 +1261,11 @@ ReactWrapper {
             "effectTag": 1,
             "expirationTime": 0,
             "firstEffect": FiberNode {
-              "_debugID": 5,
+              "_debugID": 6,
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/sstraatemans/Documents/frontmen/react-pool-app/src/components/Leaderboard/index.js",
+                "fileName": "/Users/sstraatemans/Documents/frontmen/forked-react-pool-app/src/components/Leaderboard/index.js",
                 "lineNumber": 174,
               },
               "alternate": null,
@@ -1213,9 +1287,11 @@ ReactWrapper {
               },
               "ref": [Function],
               "return": [Circular],
+              "selfBaseTime": 0,
               "sibling": null,
               "stateNode": <div />,
               "tag": 5,
+              "treeBaseTime": 0,
               "type": "div",
               "updateQueue": null,
             },
@@ -1271,6 +1347,7 @@ ReactWrapper {
                 "pendingProps": null,
                 "ref": null,
                 "return": null,
+                "selfBaseTime": 0,
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
@@ -1278,9 +1355,14 @@ ReactWrapper {
 </div>,
                   "context": Object {},
                   "current": [Circular],
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
                   "finishedWork": null,
                   "firstBatch": null,
                   "hydrate": false,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
                   "nextScheduledRoot": null,
                   "pendingChildren": null,
                   "pendingCommitExpirationTime": 0,
@@ -1288,20 +1370,20 @@ ReactWrapper {
                   "remainingExpirationTime": 0,
                 },
                 "tag": 3,
+                "treeBaseTime": 0,
                 "type": null,
                 "updateQueue": Object {
                   "baseState": null,
-                  "callbackList": null,
-                  "capturedValues": null,
                   "expirationTime": 1,
-                  "first": Object {
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": Object {
                     "callback": null,
-                    "capturedValue": null,
                     "expirationTime": 1,
-                    "isForced": false,
-                    "isReplace": false,
                     "next": null,
-                    "partialState": Object {
+                    "nextEffect": null,
+                    "payload": Object {
                       "element": <WrapperComponent
                         Component={[Function]}
                         context={null}
@@ -1312,18 +1394,17 @@ ReactWrapper {
                         }
 />,
                     },
+                    "tag": 0,
                   },
-                  "hasForceUpdate": false,
-                  "isInitialized": false,
-                  "isProcessing": false,
-                  "last": Object {
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": Object {
                     "callback": null,
-                    "capturedValue": null,
                     "expirationTime": 1,
-                    "isForced": false,
-                    "isReplace": false,
                     "next": null,
-                    "partialState": Object {
+                    "nextEffect": null,
+                    "payload": Object {
                       "element": <WrapperComponent
                         Component={[Function]}
                         context={null}
@@ -1334,6 +1415,7 @@ ReactWrapper {
                         }
 />,
                     },
+                    "tag": 0,
                   },
                 },
               },
@@ -1341,11 +1423,11 @@ ReactWrapper {
               "effectTag": 32,
               "expirationTime": 0,
               "firstEffect": FiberNode {
-                "_debugID": 5,
+                "_debugID": 6,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/sstraatemans/Documents/frontmen/react-pool-app/src/components/Leaderboard/index.js",
+                  "fileName": "/Users/sstraatemans/Documents/frontmen/forked-react-pool-app/src/components/Leaderboard/index.js",
                   "lineNumber": 174,
                 },
                 "alternate": null,
@@ -1367,9 +1449,11 @@ ReactWrapper {
                 },
                 "ref": [Function],
                 "return": [Circular],
+                "selfBaseTime": 0,
                 "sibling": null,
                 "stateNode": <div />,
                 "tag": 5,
+                "treeBaseTime": 0,
                 "type": "div",
                 "updateQueue": null,
               },
@@ -1393,6 +1477,7 @@ ReactWrapper {
               "pendingProps": null,
               "ref": null,
               "return": null,
+              "selfBaseTime": 0,
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
@@ -1400,9 +1485,14 @@ ReactWrapper {
 </div>,
                 "context": Object {},
                 "current": [Circular],
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
                 "finishedWork": null,
                 "firstBatch": null,
                 "hydrate": false,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
                 "nextScheduledRoot": null,
                 "pendingChildren": null,
                 "pendingCommitExpirationTime": 0,
@@ -1410,6 +1500,7 @@ ReactWrapper {
                 "remainingExpirationTime": 0,
               },
               "tag": 3,
+              "treeBaseTime": 0,
               "type": null,
               "updateQueue": Object {
                 "baseState": Object {
@@ -1423,16 +1514,18 @@ ReactWrapper {
                     }
 />,
                 },
-                "callbackList": null,
-                "capturedValues": null,
                 "expirationTime": 0,
-                "first": null,
-                "hasForceUpdate": false,
-                "isInitialized": true,
-                "isProcessing": false,
-                "last": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
               },
             },
+            "selfBaseTime": 0,
             "sibling": null,
             "stateNode": WrapperComponent {
               "_reactInternalFiber": [Circular],
@@ -1461,12 +1554,15 @@ ReactWrapper {
               },
             },
             "tag": 2,
+            "treeBaseTime": 0,
             "type": [Function],
             "updateQueue": null,
           },
+          "selfBaseTime": 0,
           "sibling": null,
           "stateNode": [Circular],
           "tag": 2,
+          "treeBaseTime": 0,
           "type": [Function],
           "updateQueue": null,
         },

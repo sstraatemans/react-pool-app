@@ -251,7 +251,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "className": "sc-bxivhb gKGRmu",
+      "className": "sc-bxivhb IIBAx",
     },
     "ref": null,
     "rendered": null,
@@ -263,7 +263,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "className": "sc-bxivhb gKGRmu",
+        "className": "sc-bxivhb IIBAx",
       },
       "ref": null,
       "rendered": null,
