@@ -4,7 +4,7 @@ node_js:
 deploy:
   provider: heroku
   api_key:
-    secure: HEROKUAPIKEY
+    secure: "kdXI+l73ZbZmzvS+cl90n8KnrgyD2BOOv9ye1o4ujxd5VdOGYhrhxrWPWmOnlnGizELhh1n8SsRGKZLWasOeUP9jcxFRnrtTlsIkMBQN0V4HwbHNCamxQil9TCOEK+9u8a97hH3pHfal+omEbo3+IdUmno4E5I7sBT8fQVD1OYLD9dnVGn2aA3S/9NNSFys9Ik4CQD/8+xaSlIMyiNK8nnQfKehpOlsQk4LHji5FNe6icmKcf4BKad9QOZAShirgRn1+pAcHLWt4xVhhpyJBgBHI8/5gZr7cZA0bP2lIH2FdxdIfsJNWmAi6ViQNNSmFRD+qDyUJwl0lR5WYH1bHUhnJQkW0yIHVjAMpg/VWQ3cCq+AU/mhf1re9px2ag9r3z+FBc0QdrIWaOTKmw3KEDAg76qN/giHjg5lcozdjnuYp4WACyo8Rt5zlWZj6EX6KLgpiUZoZuDkitDzIKjmrwuBqdTX1jxaelNpnVNRlOWixrdk3wgThIeqv7BLRP8xfJD+13xZdJJN/lYdV4Otev7kP0FA3ZpzD/1UGhEqyqb+nrw5Cs+pDyKoyNR0B7ToAxD1rdb8S5F0pVwtAsj/9KHNdwkKQ2VJr3bOJbhD47sjYHzxAA01CvWXWUnD4cZE21CGjcc3/kxrQYfv0Nx8m1FDMyfyRFrFk2IsmyqMANTM="
   app: frontmenpool
   on:
     all_branches: true
