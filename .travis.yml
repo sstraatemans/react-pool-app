@@ -7,4 +7,4 @@ deploy:
     secure: HEROKUAPIKEY
   app: frontmenpool
   on:
-    repo: sstraatemans/react-pool-app
+    all_branches: true
