@@ -265,7 +265,7 @@ ReactWrapper {
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": Object {
-            "fileName": "/Users/sstraatemans/Documents/frontmen/react-pool-app/src/components/Leaderboard/index.js",
+            "fileName": "/Users/sstraatemans/Documents/frontmen/forked-react-pool-app/src/components/Leaderboard/index.js",
             "lineNumber": 31,
           },
           "alternate": null,
@@ -845,7 +845,7 @@ ReactWrapper {
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/sstraatemans/Documents/frontmen/react-pool-app/src/components/Leaderboard/index.js",
+              "fileName": "/Users/sstraatemans/Documents/frontmen/forked-react-pool-app/src/components/Leaderboard/index.js",
               "lineNumber": 31,
             },
             "alternate": null,
